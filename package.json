@@ -1,0 +1,25 @@
+{
+  "appId": "com.example.fedaputinha",
+  "appName": "Fedaputinha Online",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://your-socketio-server.com",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "backgroundColor": "#2c3e50",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#f1c40f",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  }
+}
